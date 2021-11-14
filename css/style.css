@@ -1,0 +1,51 @@
+body {
+  margin: 0 auto;
+  padding: 0px;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+}
+
+.colourSegment {
+  min-height: 9vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.colourSegment div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  height: 100%;
+  border-radius: 10px;
+  background-color: white;
+  border: 1px solid rgb(226, 224, 224);
+}
+
+/* style header text in first colour segment at top of page */
+#seg1 {
+  color: rgb(199, 198, 198);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+}
+
+/* style text for main generator colour displayed in centre of page */
+#seg6 {
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+}
+
+/* nav links in footer */
+a:link#footerLink {
+  font-size: 11px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #1d063a;
+  text-decoration: none;
+  padding: 10px;
+}
